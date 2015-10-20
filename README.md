@@ -16,6 +16,15 @@ you may be surprised that `february1` is **July 1**.
 Using Immoment after running the above code `february1` would be **February 1**
 which some people may find somewhat less surprising.
 
+Performance
+-----------
+
+The performane of Immoment is around 97% of the performance of Moment in a worst case scenerio for programs that do nothing more than manipulate dates.
+
+See benchmarks:
+
+* http://jsperf.com/moment-vs-immoment
+
 Installation
 ------------
 Install to use in your project, updating the dependencies in package.json:
@@ -37,7 +46,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.9/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.10/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
