@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var immoment = require('./index');
+var moment = require('moment');
+
+var mJan1 = moment('2015-01-01');
+var mFeb1 = mJan1.add(1, 'months');
+
+var iJan1 = immoment('2015-01-01');
+var iFeb1 = iJan1.add(1, 'months');
+
+console.log('moment - Jan1 is ' + mJan1.format('MMM D'));
+console.log('moment - Feb1 is ' + mFeb1.format('MMM D'));
+
+console.log('immoment - Jan1 is ' + iJan1.format('MMM D'));
+console.log('immoment - Feb1 is ' + iFeb1.format('MMM D'));
