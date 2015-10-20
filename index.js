@@ -5,7 +5,6 @@
 
 var moment = require('moment');
 
-
 function Immoment (mo) {
     this._mc = function () {
         return mo.clone();
@@ -23,19 +22,11 @@ for (var m in mo) {
             return mc[m].apply(mc, arguments);
         }
     }(m));
-    console.log(m);
 }
 
 function immoment () {
-
     var mo = moment.apply(this, arguments);
-
     return new Immoment(mo);
-
-    for (var m in mo) {
-        console.log(m);
-    }
-
 }
 
 module.exports = immoment;
