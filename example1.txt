@@ -14,3 +14,8 @@ console.log('moment - Feb1 is ' + mFeb1.format('MMM D'));
 
 console.log('immoment - Jan1 is ' + iJan1.format('MMM D'));
 console.log('immoment - Feb1 is ' + iFeb1.format('MMM D'));
+
+console.log('max: ', immoment.max(iJan1, iFeb1).format('MMM D'));
+console.log('min: ', immoment.min(iFeb1, iJan1).format('MMM D'));
+
+console.log(immoment.min(iFeb1, iJan1)._isAMomentObject);

@@ -6,8 +6,9 @@ but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-fo
 
 This project is very young and is a work in progress.
 
-The 0.0 version doesn't support methods on the `immoment` object itself,
-only methods on objects returned by `immoment()` and doesn't do anything to their arguments. Still it already useful for simple use cases.
+The 0.1 version supports some methods on the `immoment` object itself,
+but durations are not encapsulated yet.
+Still it already useful for simple use cases.
 
 For example, in Moment when you write:
 
@@ -61,7 +62,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.14/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.1.0/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:

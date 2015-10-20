@@ -7,6 +7,20 @@ https://github.com/rsp/node-immoment
 
 window.immoment = (function (moment) {
 
+for (var m in moment) {
+    if (typeof moment[m] == 'function') immoment[m] = (function (m) {
+        return function () {
+            var args = new Array(arguments.length);
+            for (var i = 0; i < args.length; i++) {
+                var a = arguments[i];
+                args[i] = a instanceof Immoment ? a._mc() : a;
+            }
+            var r = moment[m].call(moment, args);
+            return r._isAMomentObject ? new Immoment(r) : r;
+        };
+    }(m));
+}
+
 function Immoment (mo) {
     this._mc = function () {
         return mo.clone();
@@ -16,7 +30,7 @@ function Immoment (mo) {
 var mo = moment();
 
 for (var m in mo) {
-    Immoment.prototype[m] = (function (m) {
+    if (typeof mo[m] == 'function') Immoment.prototype[m] = (function (m) {
         return function () {
             var mc = this._mc();
             return mc[m].apply(mc, arguments);
