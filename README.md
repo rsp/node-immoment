@@ -1,5 +1,5 @@
-Immomemnt = Immutable Moment
-============================
+Immoment = Immutable Moment
+===========================
 
 It works just like Moment.js but without surprises.
 
@@ -46,7 +46,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.10/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.11/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
@@ -87,6 +87,11 @@ moment - Feb1 is Feb 1
 immoment - Jan1 is Jan 1
 immoment - Feb1 is Feb 1
 ```
+
+Issues
+------
+For any bug reports or feature requests please
+[post an issue on GitHub](https://github.com/rsp/node-immoment/issues).
 
 Author
 ------
