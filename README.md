@@ -4,6 +4,11 @@ Immoment = Immutable Moment
 It works just like [Moment.js](http://momentjs.com/)
 but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-formatting-incorrect-date).
 
+This project is very young and is a work in progress.
+
+The 0.0 version doesn't support methods on the `immoment` object itself,
+only methods on objects returned by `immoment()` and doesn't do anything to their arguments. Still it already useful for simple use cases.
+
 For example, in Moment when you write:
 
 ```js
@@ -16,6 +21,12 @@ you may be surprised that `february1` is **July 1**.
 
 Using Immoment after running the above code `february1` would be **February 1**
 which some people may find somewhat less surprising.
+
+Roadmap
+-------
+* The 0.0.x is the first working experiment
+* The 0.1.x will have methods like `immoment.min()` working
+* ...
 
 Size
 ----
@@ -50,7 +61,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.13/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.14/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
