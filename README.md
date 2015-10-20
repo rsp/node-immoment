@@ -47,6 +47,8 @@ And the latest version of Immoment on:
 
 * https://github.com/rsp/node-immoment/releases
 
+The minified version of Immoment is less than 0.5kB and less than 0.25kB gzipped.
+
 Example
 -------
 
