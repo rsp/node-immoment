@@ -13,8 +13,6 @@ function Immoment (mo) {
     };
 }
 
-Immoment.prorotype = {};
-
 var mo = moment();
 
 for (var m in mo) {

@@ -31,7 +31,7 @@ If your programs do anything else besides calling methods on Moment objects then
 
 Installation
 ------------
-Install to use in your project, updating the dependencies in package.json:
+Install to use in your Node project, updating the dependencies in package.json:
 ```sh
 npm install immoment --save
 ```
