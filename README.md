@@ -22,6 +22,42 @@ Install to use in your project, updating the dependencies in package.json:
 npm install immoment --save
 ```
 
+Usage
+-----
+To use it in place of moment:
+```js
+var moment = require('immoment');
+```
+
+Example
+-------
+
+```js
+var immoment = require('immoment');
+var moment = require('moment');
+
+var mJan1 = moment('2015-01-01');
+var mFeb1 = mJan1.add(1, 'months');
+
+var iJan1 = immoment('2015-01-01');
+var iFeb1 = iJan1.add(1, 'months');
+
+console.log('moment - Jan1 is ' + mJan1.format('MMM D'));
+console.log('moment - Feb1 is ' + mFeb1.format('MMM D'));
+
+console.log('immoment - Jan1 is ' + iJan1.format('MMM D'));
+console.log('immoment - Feb1 is ' + iFeb1.format('MMM D'));
+```
+
+It outputs:
+
+```
+moment - Jan1 is Feb 1
+moment - Feb1 is Feb 1
+immoment - Jan1 is Jan 1
+immoment - Feb1 is Feb 1
+```
+
 Author
 ------
 Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
