@@ -50,7 +50,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.12/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.13/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
