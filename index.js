@@ -8,7 +8,7 @@ var moment = require('moment');
 function Immoment (mo) {
     this._mc = function () {
         return mo.clone();
-    }
+    };
 }
 
 Immoment.prorotype = {};
@@ -20,7 +20,7 @@ for (var m in mo) {
         return function () {
             var mc = this._mc();
             return mc[m].apply(mc, arguments);
-        }
+        };
     }(m));
 }
 
