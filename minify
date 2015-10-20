@@ -1,0 +1,6 @@
+#!/bin/bash
+read -d '' c << 'C'
+/* immoment.js by Rafał Pocztarski - https://github.com/rsp/node-immoment */
+C
+echo "$c" > immoment.min.js
+node_modules/uglify-js/bin/uglifyjs immoment.js -c -m >> immoment.min.js

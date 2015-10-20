@@ -35,5 +35,8 @@
   "homepage": "https://github.com/rsp/node-immoment#readme",
   "dependencies": {
     "moment": "^2.10.6"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.5.0"
   }
 }
