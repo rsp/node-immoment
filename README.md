@@ -29,6 +29,24 @@ To use it in place of moment:
 var moment = require('immoment');
 ```
 
+Usage in browser
+----------------
+You need to load both moment.js and immoment.js (in that order).
+Example with CDN:
+
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.6/immoment.min.js"></script>
+```
+
+See the latest version of Moment on:
+
+* https://cdnjs.com/libraries/moment.js
+
+And the latest version of Immoment on:
+
+* https://github.com/rsp/node-immoment/releases
+
 Example
 -------
 
