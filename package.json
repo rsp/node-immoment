@@ -1,0 +1,39 @@
+{
+  "name": "immoment",
+  "version": "0.0.0",
+  "description": "Immutable Moment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/node-immoment.git"
+  },
+  "keywords": [
+    "ender",
+    "l10n",
+    "i18n",
+    "validate",
+    "format",
+    "parse",
+    "time",
+    "date",
+    "moment",
+    "momentjs",
+    "immutable"
+  ],
+  "author": {
+    "name": "Rafał Pocztarski",
+    "email": "r.pocztarski@gmail.com",
+    "url": "https://rsp.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-immoment/issues"
+  },
+  "homepage": "https://github.com/rsp/node-immoment#readme",
+  "dependencies": {
+    "moment": "^2.10.6"
+  }
+}
