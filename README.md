@@ -1,7 +1,8 @@
 Immoment = Immutable Moment
 ===========================
 
-It works just like Moment.js but without surprises.
+It works just like [Moment.js](http://momentjs.com/)
+but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-formatting-incorrect-date).
 
 For example, in Moment when you write:
 
@@ -16,14 +17,17 @@ you may be surprised that `february1` is **July 1**.
 Using Immoment after running the above code `february1` would be **February 1**
 which some people may find somewhat less surprising.
 
+Size
+----
+The minified version of Immoment is less than 0.5kB and less than 0.25kB gzipped.
+
 Performance
 -----------
+The performane of Immoment is around 97% of the performance of Moment for a typical use case. See benchmarks:
 
-The performane of Immoment is around 97% of the performance of Moment in a worst case scenerio for programs that do nothing more than manipulate dates.
+* [http://jsperf.com/moment-vs-immoment](http://jsperf.com/moment-vs-immoment)
 
-See benchmarks:
-
-* http://jsperf.com/moment-vs-immoment
+If your programs do anything else besides calling methods on Moment objects then you are not likely to see even that 3% hit.
 
 Installation
 ------------
@@ -46,18 +50,16 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.11/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.12/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
 
-* https://cdnjs.com/libraries/moment.js
+* [https://cdnjs.com/libraries/moment.js](https://cdnjs.com/libraries/moment.js)
 
 And the latest version of Immoment on:
 
-* https://github.com/rsp/node-immoment/releases
-
-The minified version of Immoment is less than 0.5kB and less than 0.25kB gzipped.
+* [https://github.com/rsp/node-immoment/releases](https://github.com/rsp/node-immoment/releases)
 
 Example
 -------
