@@ -8,7 +8,7 @@ This project is very young and is a work in progress.
 
 The 0.1 version supports some methods on the `immoment` object itself,
 but durations are not encapsulated yet.
-Still it already useful for simple use cases.
+Still it is already useful for simple use cases.
 
 For example, in Moment when you write:
 
@@ -16,18 +16,20 @@ For example, in Moment when you write:
 var january1 = moment('2015-01-01');
 var february1 = january1.add(1, 'months');
 var march1 = january1.add(2, 'months');
-var april1 = january1.add(3, 'months');
 ```
-you may be surprised that `february1` is **July 1**.
+you may be surprised that `march1` is now set to the April Fools' Day.
 
-Using Immoment after running the above code `february1` would be **February 1**
+Using Immoment after running the above code `march1` would be **March 1**
 which some people may find somewhat less surprising.
 
 Roadmap
 -------
 * The 0.0.x is the first working experiment
-* The 0.1.x will have methods like `immoment.min()` working
+* The 0.1.x has methods like `immoment.min()` working
+* The 0.2.x will have durations properly encapsulated
 * ...
+
+Contact me with any suggestions.
 
 Size
 ----
@@ -62,7 +64,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.1.0/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.1.1/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
