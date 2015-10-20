@@ -13,7 +13,8 @@ var april1 = january1.add(3, 'months');
 ```
 you may be surprised that `february1` is **July 1**.
 
-Using Immoment after running the above code `february1` would be **February 1** which some people may find somewhat less surprising.
+Using Immoment after running the above code `february1` would be **February 1**
+which some people may find somewhat less surprising.
 
 Installation
 ------------
@@ -36,7 +37,7 @@ Example with CDN:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.8/immoment.min.js"></script>
+<script src="https://cdn.rawgit.com/rsp/node-immoment/v0.0.9/immoment.min.js"></script>
 ```
 
 See the latest version of Moment on:
