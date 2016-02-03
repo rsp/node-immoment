@@ -1,6 +1,10 @@
 Immoment = Immutable Moment
 ===========================
 
+[![npm install immoment](https://nodei.co/npm/immoment.png?compact=true)](https://www.npmjs.com/package/immoment)
+<br>
+[![Downloads](https://img.shields.io/npm/dt/immoment.svg)](http://npm-stat.com/charts.html?package=immoment)
+
 It works just like [Moment.js](http://momentjs.com/)
 but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-formatting-incorrect-date).
 
