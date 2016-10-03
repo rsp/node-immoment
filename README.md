@@ -3,6 +3,7 @@ Immoment = Immutable Moment
 
 [![npm install immoment](https://nodei.co/npm/immoment.png?compact=true)](https://www.npmjs.com/package/immoment)
 <br>
+[![Known Vulnerabilities](https://snyk.io/test/github/rsp/node-immoment/5a0e4559e58b6f51761af27433a782a886f56d74/badge.svg)](https://snyk.io/test/github/rsp/node-immoment/5a0e4559e58b6f51761af27433a782a886f56d74)
 [![Downloads](https://img.shields.io/npm/dt/immoment.svg)](http://npm-stat.com/charts.html?package=immoment)
 
 It works just like [Moment.js](http://momentjs.com/)
