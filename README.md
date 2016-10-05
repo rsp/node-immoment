@@ -25,6 +25,9 @@ Immoment = Immutable Moment
 [github-follow-img]: https://img.shields.io/github/followers/rsp.svg?style=social&label=Follow
 [twitter-follow-url]: https://twitter.com/intent/follow?screen_name=pocztarski
 [twitter-follow-img]: https://img.shields.io/twitter/follow/pocztarski.svg?style=social&label=Follow
+[stackoverflow-url]: https://stackoverflow.com/users/613198/rsp
+[stackexchange-url]: https://stackexchange.com/users/303952/rsp
+[stackexchange-img]: https://stackexchange.com/users/flair/303952.png
 
 It works just like [Moment.js](http://momentjs.com/)
 but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-formatting-incorrect-date).
@@ -140,6 +143,7 @@ Author
 <br/>
 [![Follow on GitHub][github-follow-img]][github-follow-url]
 [![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 License
 -------
