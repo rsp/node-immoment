@@ -1,10 +1,27 @@
 Immoment = Immutable Moment
 ===========================
 
-[![npm install immoment](https://nodei.co/npm/immoment.png?compact=true)](https://www.npmjs.com/package/immoment)
+[![npm install][install-img]][npm-url]
 <br>
-[![Known Vulnerabilities](https://snyk.io/test/github/rsp/node-immoment/5a0e4559e58b6f51761af27433a782a886f56d74/badge.svg)](https://snyk.io/test/github/rsp/node-immoment/5a0e4559e58b6f51761af27433a782a886f56d74)
-[![Downloads](https://img.shields.io/npm/dt/immoment.svg)](http://npm-stat.com/charts.html?package=immoment)
+[![Known Vulnerabilities][snyk-img]][snyk-url]
+[![Downloads][downloads-img]][stats-url]
+[![License][license-img]][license-url]
+
+[npm-url]: https://www.npmjs.com/package/immoment
+[github-url]: https://github.com/rsp/node-immoment
+[readme-url]: https://github.com/rsp/node-immoment#readme
+[issues-url]: https://github.com/rsp/node-immoment/issues
+[license-url]: https://github.com/rsp/node-immoment/blob/master/LICENSE.md
+[snyk-url]: https://snyk.io/test/github/rsp/node-immoment
+[snyk-img]: https://snyk.io/test/github/rsp/node-immoment/badge.svg
+[install-img]: https://nodei.co/npm/immoment.png?compact=true
+[downloads-img]: https://img.shields.io/npm/dt/immoment.svg
+[license-img]: https://img.shields.io/npm/l/immoment.svg
+[stats-url]: http://npm-stat.com/charts.html?package=immoment
+[github-follow-url]: https://github.com/rsp
+[github-follow-img]: https://img.shields.io/github/followers/rsp.svg?style=social&label=Follow
+[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=pocztarski
+[twitter-follow-img]: https://img.shields.io/twitter/follow/pocztarski.svg?style=social&label=Follow
 
 It works just like [Moment.js](http://momentjs.com/)
 but without [surprises](http://stackoverflow.com/questions/33002430/moment-js-formatting-incorrect-date).
@@ -116,8 +133,19 @@ For any bug reports or feature requests please
 
 Author
 ------
-Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
+[Rafał Pocztarski](https://pocztarski.com/)
+<br/>
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
 
 License
 -------
-MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
+This is **free software** released under the Expat (MIT) License.
+
+It is a permissive, non-copyleft, GPL-compatible license that complies with:
+
+* [The Free Software Definition](https://www.gnu.org/philosophy/free-sw.html.en)
+* [The Debian Free Software Guidelines](https://www.debian.org/social_contract.html#guidelines)
+* [The Open Source Definition](https://opensource.org/osd-annotated)
+
+See [LICENSE.md][license-url] for details.
