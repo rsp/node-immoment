@@ -143,6 +143,7 @@ Author
 <br/>
 [![Follow on GitHub][github-follow-img]][github-follow-url]
 [![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+<br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 License
