@@ -3,6 +3,7 @@ Immoment = Immutable Moment
 
 [![npm install][install-img]][npm-url]
 <br>
+[![Build Status][travis-img]][travis-url]
 [![Known Vulnerabilities][snyk-img]][snyk-url]
 [![Downloads][downloads-img]][stats-url]
 [![License][license-img]][license-url]
@@ -12,6 +13,8 @@ Immoment = Immutable Moment
 [readme-url]: https://github.com/rsp/node-immoment#readme
 [issues-url]: https://github.com/rsp/node-immoment/issues
 [license-url]: https://github.com/rsp/node-immoment/blob/master/LICENSE.md
+[travis-url]: https://travis-ci.org/rsp/node-immoment
+[travis-img]: https://travis-ci.org/rsp/node-immoment.svg?branch=master
 [snyk-url]: https://snyk.io/test/github/rsp/node-immoment
 [snyk-img]: https://snyk.io/test/github/rsp/node-immoment/badge.svg
 [install-img]: https://nodei.co/npm/immoment.png?compact=true
